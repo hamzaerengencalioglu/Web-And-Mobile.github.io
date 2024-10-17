@@ -486,7 +486,7 @@ html, body {
 
 /* Section: Counters */
 .section-counters {
-    background: url(../img/counters-bg.jpg) no-repeat fixed center / cover;
+    background: url(../img/counter.jpg) no-repeat fixed center / cover;
     width: 100%;
     padding: 100px 0;
     position: relative;
@@ -580,4 +580,42 @@ a.icon-up-bg:hover {color: #212121;}
     padding: 10px; /* İçeriğe biraz boşluk ekler */
     margin-bottom: 15px; /* Beceriler arasına boşluk bırakır */
     border-radius: 5px; /* Kenarları hafif yuvarlatır */
+}
+.main-menu {
+    display: flex;
+    justify-content: center; /* Yatay olarak ortalar */
+    align-items: center; /* Dikey olarak ortalar */
+    height: 100%; /* Gerekirse tam yükseklik için */
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 20px; /* Menü elemanları arasına boşluk ekler */
+}
+
+    .navbar-nav li {
+        list-style: none; /* Varsayılan liste işaretlerini kaldırır */
+    }
+
+    .navbar-nav a {
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+.hero {
+    display: flex;
+    justify-content: center; /* Yatay olarak ortalar */
+    align-items: center; /* Dikey olarak ortalar */
+    height: 150vh; /* Ekranın tamamını kaplar */
+    text-align: center; /* İçeriklerin ortalanmasını sağlar */
+    position: relative;
+}
+
+
+
+.hero h1 {
+    margin-bottom: 20px; /* Başlık ile altındaki elemanlar arasına boşluk */
+}
+
+.hero .btn {
+    margin: 5px; /* Butonlar arasında boşluk bırakır */
 }
