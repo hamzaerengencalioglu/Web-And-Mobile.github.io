@@ -601,21 +601,3 @@ a.icon-up-bg:hover {color: #212121;}
         text-decoration: none;
         padding: 10px 20px;
     }
-.hero {
-    display: flex;
-    justify-content: center; /* Yatay olarak ortalar */
-    align-items: center; /* Dikey olarak ortalar */
-    height: 150vh; /* Ekranın tamamını kaplar */
-    text-align: center; /* İçeriklerin ortalanmasını sağlar */
-    position: relative;
-}
-
-
-
-.hero h1 {
-    margin-bottom: 20px; /* Başlık ile altındaki elemanlar arasına boşluk */
-}
-
-.hero .btn {
-    margin: 5px; /* Butonlar arasında boşluk bırakır */
-}
